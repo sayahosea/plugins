@@ -18,7 +18,8 @@
 	<div class="h-screen flex items-center justify-center">
 		<div>
 			<h1 class="text-5xl">Plugins</h1>
-			<p class="text-xl mt-2 mb-8">These are plugins made by me.</p>
+			<p class="text-xl">🇮🇩 I STAND WITH THE PROTESTORS.</p>
+			<p class="text-xl mt-4 mb-8">These are plugins made by me.</p>
 
 			<div class="flex space-x-8">
 				<PluginCard
