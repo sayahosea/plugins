@@ -2,8 +2,18 @@
     import PluginCard from "$lib/components/PluginCard.svelte";
 
     const plugins = [
-        { name: 'ReduceMobs', description: 'Paper plugin to reduce mobs spawning using percentage. Supports >= 1.21.' },
-        { name: 'GPHome', description: 'Paper plugin for GriefPrevention land teleportation. Supports >= 1.21.11.' }
+        {
+            name: 'ReduceMobs',
+            description: 'Paper plugin to reduce mobs spawning using percentage. Supports >= 1.21.',
+            repoWebName: 'GitHub',
+            repoUrl: 'https://github.com/sayahosea/reducemobs'
+        },
+        {
+            name: 'GPHome',
+            description: 'Paper plugin for GriefPrevention land teleportation. Supports >= 1.21.11.',
+            repoWebName: 'GitLab',
+            repoUrl: 'https://gitlab.com/sayahosea/gphome'
+        }
     ];
 </script>
 
@@ -29,6 +39,8 @@
                     <PluginCard
                             name={ plugin.name }
                             description={ plugin.description }
+                            repoWebName={ plugin.repoWebName }
+                            repoUrl={ plugin.repoUrl }
                     />
                 {/each}
             </div>

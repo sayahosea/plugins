@@ -1,5 +1,5 @@
 <script lang="ts">
-    let { name, description } = $props();
+    let { name, description, repoWebName, repoUrl } = $props();
 </script>
 
 <div class="card bg-base-300 md:w-96 shadow-sm">
@@ -15,10 +15,10 @@
         <div class="card-actions">
             <a
                     class="btn btn-info"
-                    href="https://github.com/sayahosea/reducemobs"
+                    href="{ repoUrl }"
                     rel="noreferrer"
                     target="_blank"
-            >GitHub</a>
+            >{ repoWebName }</a>
         </div>
     </div>
 </div>
