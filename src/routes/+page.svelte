@@ -2,7 +2,8 @@
     import PluginCard from "$lib/components/PluginCard.svelte";
 
     const plugins = [
-        { name: 'ReduceMobs', description: 'Paper plugin to reduce mobs spawning using percentage. Supports >= 1.21.' }
+        { name: 'ReduceMobs', description: 'Paper plugin to reduce mobs spawning using percentage. Supports >= 1.21.' },
+        { name: 'GPHome', description: 'Paper plugin for GriefPrevention land teleportation. Supports >= 1.21.11.' }
     ];
 </script>
 
